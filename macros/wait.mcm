@@ -1,0 +1,9 @@
+
+# wait as <selector> in <objective> for <time> {}
+
+macro wait {
+  execute store result score @s $$3 run schedule $$5 append {
+    execute store result score .temp0 $$3 run time query gametime
+    execute as $$1 if score @s $$3 = .temp0 $$3 at @s run function $$6
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Chocolate Milk",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "§6§oMinecraft Rebalanced"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{2st:{chocolate_milk:1b},CustomModelData:3330308}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

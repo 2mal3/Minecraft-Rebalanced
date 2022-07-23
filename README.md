@@ -1,0 +1,2 @@
+# datapack-template
+ 
