@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:blackstone_slab",
+    "minecraft:blackstone_stairs",
+    "minecraft:blackstone_wall",
+    "minecraft:chiseled_polished_blackstone",
+    "minecraft:cracked_polished_blackstone_bricks",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:polished_blackstone_brick_stairs",
+    "minecraft:polished_basalt",
+    "minecraft:spawner"
+  ]
+}
