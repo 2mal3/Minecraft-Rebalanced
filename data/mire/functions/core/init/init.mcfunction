@@ -15,6 +15,7 @@ scoreboard objectives add mire.fleeingTime dummy
 #declare score_holder $version
 #declare score_holder %rain
 #declare score_holder .temp0
+#declare score_holder $2tw.init
 scoreboard players set $version mire.data 000100
 scoreboard players set %rain mire.data 0
 
