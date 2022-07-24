@@ -2,8 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
-      "conditions": { "item": { "items": ["minecraft:beetroot_soup"] } }
+      "conditions": {
+        "item": {
+          "items": ["minecraft:beetroot_soup"]
+        }
+      }
     }
   },
-  "rewards": { "function": "mire:item/food/beetroot_soup" }
+  "rewards": {
+    "function": "mire:item/food/beetroot_soup"
+  }
 }

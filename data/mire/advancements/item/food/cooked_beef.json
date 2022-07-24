@@ -2,8 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
-      "conditions": { "item": { "items": ["minecraft:cooked_beef"] } }
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cooked_beef"]
+        }
+      }
     }
   },
-  "rewards": { "function": "mire:item/food/cooked_beef" }
+  "rewards": {
+    "function": "mire:item/food/cooked_beef"
+  }
 }

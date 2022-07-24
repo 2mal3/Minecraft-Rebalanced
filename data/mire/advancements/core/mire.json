@@ -2,10 +2,16 @@
   "display": {
     "title": "Minecraft Rebalanced v0.1.0",
     "description": "<datapack description>",
-    "icon": { "item": "minecraft:air" },
+    "icon": {
+      "item": "minecraft:air"
+    },
     "announce_to_chat": false,
     "show_toast": false
   },
   "parent": "global:2mal3",
-  "criteria": { "trigger": { "trigger": "minecraft:tick" } }
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
 }

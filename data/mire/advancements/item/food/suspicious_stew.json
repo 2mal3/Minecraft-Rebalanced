@@ -2,8 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
-      "conditions": { "item": { "items": ["minecraft:suspicious_stew"] } }
+      "conditions": {
+        "item": {
+          "items": ["minecraft:suspicious_stew"]
+        }
+      }
     }
   },
-  "rewards": { "function": "mire:item/food/suspicious_stew" }
+  "rewards": {
+    "function": "mire:item/food/suspicious_stew"
+  }
 }

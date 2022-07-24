@@ -2,8 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
-      "conditions": { "item": { "items": ["minecraft:pumpkin_pie"] } }
+      "conditions": {
+        "item": {
+          "items": ["minecraft:pumpkin_pie"]
+        }
+      }
     }
   },
-  "rewards": { "function": "mire:item/food/pumpkin_pie" }
+  "rewards": {
+    "function": "mire:item/food/pumpkin_pie"
+  }
 }

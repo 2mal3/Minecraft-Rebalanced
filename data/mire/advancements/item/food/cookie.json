@@ -2,8 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
-      "conditions": { "item": { "items": ["minecraft:cookie"] } }
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cookie"]
+        }
+      }
     }
   },
-  "rewards": { "function": "mire:item/food/cookie" }
+  "rewards": {
+    "function": "mire:item/food/cookie"
+  }
 }

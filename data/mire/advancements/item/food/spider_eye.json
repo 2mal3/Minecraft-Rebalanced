@@ -2,8 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
-      "conditions": { "item": { "items": ["minecraft:spider_eye"] } }
+      "conditions": {
+        "item": {
+          "items": ["minecraft:spider_eye"]
+        }
+      }
     }
   },
-  "rewards": { "function": "mire:item/food/spider_eye" }
+  "rewards": {
+    "function": "mire:item/food/spider_eye"
+  }
 }

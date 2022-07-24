@@ -2,8 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
-      "conditions": { "item": { "items": ["minecraft:sweet_berries"] } }
+      "conditions": {
+        "item": {
+          "items": ["minecraft:sweet_berries"]
+        }
+      }
     }
   },
-  "rewards": { "function": "mire:item/food/sweet_berries" }
+  "rewards": {
+    "function": "mire:item/food/sweet_berries"
+  }
 }

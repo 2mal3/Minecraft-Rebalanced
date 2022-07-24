@@ -2,8 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
-      "conditions": { "item": { "items": ["minecraft:mushroom_stew"] } }
+      "conditions": {
+        "item": {
+          "items": ["minecraft:mushroom_stew"]
+        }
+      }
     }
   },
-  "rewards": { "function": "mire:item/food/mushroom_stew" }
+  "rewards": {
+    "function": "mire:item/food/mushroom_stew"
+  }
 }

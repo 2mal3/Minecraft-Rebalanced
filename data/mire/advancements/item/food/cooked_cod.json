@@ -2,8 +2,14 @@
   "criteria": {
     "requirement": {
       "trigger": "minecraft:consume_item",
-      "conditions": { "item": { "items": ["minecraft:cooked_cod"] } }
+      "conditions": {
+        "item": {
+          "items": ["minecraft:cooked_cod"]
+        }
+      }
     }
   },
-  "rewards": { "function": "mire:item/food/cooked_cod" }
+  "rewards": {
+    "function": "mire:item/food/cooked_cod"
+  }
 }
