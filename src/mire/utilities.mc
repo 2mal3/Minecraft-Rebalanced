@@ -6,7 +6,7 @@ function get_uuid {
 }
 
 
-## Random 
+## Random
 dir random {
   predicate 80 {
     "condition": "minecraft:random_chance",

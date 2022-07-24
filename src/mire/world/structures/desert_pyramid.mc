@@ -13,7 +13,7 @@ function modify {
         # Randomy places new ones
         LOOP(3, x) {
           LOOP(3, y) {
-            execute if predicate mire:utilities/random/33 run setblock ~<%x%> ~ ~<%y%> minecraft:birch_pressure_plate 
+            execute if predicate mire:utilities/random/33 run setblock ~<%x%> ~ ~<%y%> minecraft:birch_pressure_plate
           }
         }
       }
@@ -52,7 +52,7 @@ function find {
       # Reset the temp storage for the following operations
       data remove storage mire:data root.temp
 
-      # Get the coords of the found desert pyramid from the map  
+      # Get the coords of the found desert pyramid from the map
       data modify storage mire:data root.temp.coords set value [0,0]
       execute store result storage mire:data root.temp.coords[0] int 1 run data get entity @s Item.tag.Decorations[0].x
       execute store result storage mire:data root.temp.coords[1] int 1 run data get entity @s Item.tag.Decorations[0].z
@@ -65,13 +65,13 @@ function find {
       data modify storage mire:data root.temp.desertPyramids set from storage mire:data root.desertPyramids
       execute unless data storage mire:data root.temp.desertPyramids run scoreboard players set .temp1 mire.data 0
       execute if data storage mire:data root.temp.desertPyramids store result score .temp1 mire.data run data modify storage mire:data root.temp.desertPyramids[] set from storage mire:data root.temp.coords
-      
+
       # Modify the pyramid if the new coords not belong to an old pyramid
       execute if score .temp0 mire.data = .temp1 mire.data run {
         # Teleport the map to the new pyramid coords
         data modify entity @s Pos[0] set from entity @s Item.tag.Decorations[0].x
         data modify entity @s Pos[2] set from entity @s Item.tag.Decorations[0].z
-        # Save the new pyramid coords 
+        # Save the new pyramid coords
         data modify storage mire:data root.desertPyramids append from storage mire:data root.temp.coords
 
         # Spawns a desert pyramid marker

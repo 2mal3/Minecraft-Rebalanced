@@ -25,7 +25,7 @@ dir loops {
 
   clock 1s {
     name second
-    
+
     # Entity ticks
     execute as @e[type=#mire:core/process,tag=!global.ignore,tag=!smithed.entity,tag=!smithed.strict,tag=!smithed.block] at @s run {
       # Players
@@ -41,7 +41,7 @@ dir loops {
 
   clock 10s {
     name 10_second
-    
+
     # Entity ticks
     execute as @e[type=#mire:core/process,tag=!global.ignore,tag=!smithed.entity,tag=!smithed.strict,tag=!smithed.block] at @s run {
       execute if entity @s[type=#mire:entity/pet/pets] run function mire:entity/pet/loop

@@ -45,4 +45,3 @@ advancement drink_normal {
     "function": "mire:item/healing_potion/drink"
   }
 }
-

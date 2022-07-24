@@ -3,7 +3,7 @@ import ../../../../macros/wait.mcm
 
 function block {
   advancement revoke @s only mire:item/shield/no_sneak/block
-  
+
   # Some fancy effects
   execute positioned ^ ^ ^0.8 run particle minecraft:crit ~ ~1.1 ~ 0 0 0 0.3 14
   playsound minecraft:entity.player.attack.knockback player @a ~ ~ ~ 0.5

@@ -45,7 +45,7 @@ advancement trigger {
 ## Activates the totem if the player falls into the void
 function void {
   advancement revoke @s only mire:item/totem_of_undying/void
-  
+
   # Wait a tick befor trigger totem because the player cant get damge in this tick anymore
   wait as @a in mire.schedule for 1t {
     effect give @s minecraft:instant_damage 1 100 true

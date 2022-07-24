@@ -23,7 +23,7 @@ function rng {
   scoreboard players operation .rng.bitSwap 2mal3.data /= $65536 2mal3.data
   scoreboard players operation .rng 2mal3.data *= $65536 2mal3.data
   scoreboard players operation .rng 2mal3.data += .rng.bitSwap 2mal3.data
-  
+
   # Return output
   scoreboard players operation .temp0 2mal3.data = %in1 2mal3.data
   scoreboard players operation .temp0 2mal3.data -= %in0 2mal3.data

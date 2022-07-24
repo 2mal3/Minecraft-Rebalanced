@@ -1,7 +1,7 @@
 
 function block {
   advancement revoke @s only mire:item/shield/sneak/block
-  
+
   execute positioned ^ ^ ^0.8 run particle block stripped_spruce_log ~ ~1.1 ~ 0.1 0.1 0.1 0.3 32
   playsound minecraft:item.axe.strip player @a ~ ~ ~ 1 1.3
 
