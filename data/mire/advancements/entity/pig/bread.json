@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:pig"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mire:entity/pig/bread"
+  }
+}
