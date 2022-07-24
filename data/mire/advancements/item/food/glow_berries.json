@@ -1,0 +1,9 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": { "item": { "items": ["minecraft:glow_berries"] } }
+    }
+  },
+  "rewards": { "function": "mire:item/food/glow_berries" }
+}

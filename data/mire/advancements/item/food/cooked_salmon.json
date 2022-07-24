@@ -1,0 +1,9 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": { "item": { "items": ["minecraft:cooked_salmon"] } }
+    }
+  },
+  "rewards": { "function": "mire:item/food/cooked_salmon" }
+}

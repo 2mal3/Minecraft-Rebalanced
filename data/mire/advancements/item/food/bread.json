@@ -1,0 +1,9 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": { "item": { "items": ["minecraft:bread"] } }
+    }
+  },
+  "rewards": { "function": "mire:item/food/bread" }
+}
