@@ -16,6 +16,8 @@ scoreboard objectives add mire.fleeingTime dummy
 #declare score_holder %rain
 #declare score_holder .temp0
 #declare score_holder $2tw.init
+#declare score_holder $nether
+#declare score_holder $end
 scoreboard players set $version mire.data 000100
 scoreboard players set %rain mire.data 0
 
@@ -25,11 +27,12 @@ data merge storage mire:data {root: {desertPyramids: []}}
 team add mire.noCollisionSelf
 team modify mire.noCollisionSelf collisionRule pushOwnTeam
 
-# Start gamerules. These will be changed later in the game progress
 gamerule randomTickSpeed 2
+# Start gamerules. These will be changed later in the game progress
 gamerule doInsomnia false
 gamerule doPatrolSpawning false
 gamerule doTraderSpawning false
+gamerule disableRaids true
 difficulty easy
 
 # Send installation massage after 4 seconds
