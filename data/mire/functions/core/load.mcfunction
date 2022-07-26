@@ -13,3 +13,4 @@ execute unless score %installed mire.data matches 1 run function mire:core/init/
 execute if score %installed mire.data matches 1 unless score $version mire.data matches 000100 run function mire:core/__generated__/execute/14
 
 # Restarts all loops
+schedule function mire:core/loop/minute 60s replace
