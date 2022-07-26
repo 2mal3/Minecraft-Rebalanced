@@ -1,0 +1,47 @@
+
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "items": ["minecraft:totem_of_undying"]
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": ["minecraft:totem_of_undying"]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "damage": {
+          "type": {
+            "bypasses_invulnerability": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mire:item/totem_of_undying/void"
+  }
+}
