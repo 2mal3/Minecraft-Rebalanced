@@ -12,6 +12,6 @@ execute unless score %installed mire.data matches 1 run function mire:core/init/
 # Update the datapack if a new version is installed
 execute if score %installed mire.data matches 1 unless score $version mire.data matches 000100 run function mire:core/__generated__/execute/14
 
-# Restarts all loops
-schedule function mire:core/loop/minute 60s replace
-schedule function mire:core/loop/10_second 10s replace
+# Restarts all clocks
+schedule function mire:core/clock/minute 60s replace
+schedule function mire:core/clock/10_second 10s replace
