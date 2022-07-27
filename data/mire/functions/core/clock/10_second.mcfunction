@@ -6,4 +6,4 @@
 schedule function mire:core/clock/10_second 10s replace
 
 # Entity clocks
-execute as @e[type=#mire:pet] at @s run function mire:entity/clock/10_second
+execute as @e[type=#mire:clock/10_second] at @s run function mire:entity/clock/10_second
