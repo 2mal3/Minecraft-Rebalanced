@@ -15,3 +15,4 @@ execute if score %installed mire.data matches 1 unless score $version mire.data 
 # Restarts all clocks
 schedule function mire:core/clock/minute 60s replace
 schedule function mire:core/clock/10_second 10s replace
+schedule function mire:core/clock/10_tick 10t replace

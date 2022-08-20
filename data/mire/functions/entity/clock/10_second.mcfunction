@@ -7,3 +7,5 @@
 execute if entity @s[type=#mire:pet] run function mire:entity/pet/regenerate
 # Gives spiders a speed buff
 execute if entity @s[type=#mire:spider,tag=!mire.spider.processed] run function mire:entity/spider/spawn
+# Zombie spawns
+execute if entity @s[type=#mire:zombie,tag=!mire.zombie.processed] run function mire:entity/zombie/spawn
