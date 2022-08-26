@@ -8,8 +8,6 @@ scoreboard players set %installed mire.data 1
 
 scoreboard objectives add mire.data dummy
 scoreboard objectives add 2mal3.debugMode dummy
-scoreboard objectives add mire.schedule dummy
-scoreboard objectives add mire.fleeingTime dummy
 scoreboard objectives add mire.math dummy
 
 # Variables
@@ -33,10 +31,7 @@ scoreboard players set $rng.increment mire.math 1013904223
 scoreboard players set .rng.bitSwap mire.math 0
 
 #declare storage mire:data
-data merge storage mire:data {root: {desertPyramids: []}}
-
-team add mire.noCollisionSelf
-team modify mire.noCollisionSelf collisionRule pushOwnTeam
+data merge storage mire:data {root: {}}
 
 gamerule randomTickSpeed 2
 # Start gamerules. These will be changed later in the game progress
