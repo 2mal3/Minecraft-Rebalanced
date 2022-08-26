@@ -3,4 +3,4 @@
 # Called from function: mire:core/clock/10_tick
 # Datapack by 2mal3 (https://github.com/2mal3)
 
-execute as @s[type=#mire:zombie] run function mire:entity/zombie/10_tick_clock
+execute if entity @s[type=#mire:zombie] run function mire:entity/zombie/10_tick_clock
