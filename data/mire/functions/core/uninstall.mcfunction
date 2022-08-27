@@ -7,6 +7,9 @@ tellraw @a[scores={2mal3.debugMode=3..}] [{"text":"[","color":"gray"},{"text":"M
 
 scoreboard objectives remove mire.data
 scoreboard objectives remove mire.math
+scoreboard objectives remove mire.schedule
+scoreboard objectives remove mire.useRocket
+scoreboard objectives remove mire.useElytra
 
 tellraw @a {"text":"Minecraft Rebalanced v0.1.0 by 2mal3 was successfully uninstalled.","color": "green"}
 

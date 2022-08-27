@@ -1,0 +1,11 @@
+{
+  "function": "copy_nbt",
+  "source": "this",
+  "ops": [
+    {
+      "source": "Inventory[{Slot:102b}].tag.Damage",
+      "target": "mire.damage",
+      "op": "replace"
+    }
+  ]
+}

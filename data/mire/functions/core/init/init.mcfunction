@@ -9,6 +9,9 @@ scoreboard players set %installed mire.data 1
 scoreboard objectives add mire.data dummy
 scoreboard objectives add 2mal3.debugMode dummy
 scoreboard objectives add mire.math dummy
+scoreboard objectives add mire.schedule dummy
+scoreboard objectives add mire.useRocket minecraft.used:minecraft.firework_rocket
+scoreboard objectives add mire.useElytra minecraft.custom:minecraft.aviate_one_cm
 
 # Variables
 #declare score_holder $version
