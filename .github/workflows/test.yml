@@ -3,38 +3,13 @@ name: Test
 on:
   push:
       paths:
-        - "**.mc"
+        - "**.mcfunction"
+        - "**.json"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3
-
-      - name: Install mc-build
-        run: npm i -g mc-build
-      - name: Run mc-build
-        run: mcb -build
-
-      - name: Cache
-        uses: actions/cache@v3.0.7
-        with:
-          path: ./
-          key: ${{ github.sha }}
-
   mc-commands:
     runs-on: ubuntu-latest
-    needs: build
     steps:
-      - name: Cache
-        uses: actions/cache@v3.0.7
-        with:
-          path: ./
-          key: ${{ github.sha }}
-
       - name: Check minecraft commands
         uses: mcbeet/check-commands@v1
         with:
@@ -44,14 +19,7 @@ jobs:
 
   json:
     runs-on: ubuntu-latest
-    needs: build
     steps:
-      - name: Cache
-        uses: actions/cache@v3.0.7
-        with:
-          path: ./
-          key: ${{ github.sha }}
-
       - name: Install jsonlint-cli
         run: npm install -g jsonlint-cli
       - name: Lint json files
