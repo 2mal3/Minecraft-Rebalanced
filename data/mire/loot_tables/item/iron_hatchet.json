@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Iron Hatchet",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "§6§oMinecraft Rebalanced"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " 8 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_damage",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " 1.4 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_speed",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:40,HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.6,Operation:0,UUID:[I;-1330867928,-530887287,-2058089770,1386817973],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;1263603045,1354188980,-2021506653,1788730539],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

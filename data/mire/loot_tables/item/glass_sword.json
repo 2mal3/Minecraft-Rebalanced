@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Glass Sword",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": "§6§oMinecraft Rebalanced"
+                },
+                {
+                  "text": "Fragile",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " 18 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_damage",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " 1.6 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_speed",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.0004,
+                "max": 0.003
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{RepairCost:40,CustomModelData:3330310,HideFlags:3,Enchantments:[{id:\"minecraft:unbreaking\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:17,Operation:0,UUID:[I;1429639287,-1237758755,-1510033637,1739145085]},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;1373710218,-741652583,-1716881078,-469886724]}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
