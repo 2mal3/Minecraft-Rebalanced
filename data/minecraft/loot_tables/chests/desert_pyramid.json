@@ -99,18 +99,23 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_horse_armor",
-          "weight": 4
+          "weight": 6
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_horse_armor",
-          "weight": 2
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_horse_armor",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
