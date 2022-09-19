@@ -39,8 +39,8 @@
                   "attribute": "minecraft:generic.movement_speed",
                   "name": "movementSpeed",
                   "amount": {
-                    "min": 0.08,
-                    "max": 0.16
+                    "min": 0.05,
+                    "max": 0.14
                   },
                   "operation": "addition",
                   "slot": "offhand"
@@ -340,7 +340,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 12
+                "max": 7
               }
             }
           ]
@@ -348,7 +348,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_block",
-          "weight": 10
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -377,7 +377,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
-          "weight": 1
+          "weight": 2
         }
       ]
     },
