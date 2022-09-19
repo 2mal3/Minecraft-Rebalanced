@@ -80,11 +80,23 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:globe_banner_pattern"
+          "name": "minecraft:name_tag",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:globe_banner_pattern",
+          "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "mire:chest/music_discs"
+          "name": "mire:chest/music_discs",
+          "weight": 2
         }
       ]
     }
