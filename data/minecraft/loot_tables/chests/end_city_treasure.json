@@ -2,6 +2,74 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": {
+        "min": 3,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purpur_block",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_rod",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_stone_bricks",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              },
+              "add": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [
         {
@@ -25,7 +93,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
-          "weight": 10,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -33,29 +101,29 @@
                 "min": 3,
                 "max": 6
               },
-              "add": false
+              "add": true
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 15,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 2,
-                "max": 5
+                "max": 3
               },
-              "add": false
+              "add": true
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "weight": 5,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -63,7 +131,7 @@
                 "min": 5,
                 "max": 10
               },
-              "add": false
+              "add": true
             }
           ]
         },
@@ -78,7 +146,7 @@
                 "min": 3,
                 "max": 9
               },
-              "add": false
+              "add": true
             }
           ]
         },
@@ -93,7 +161,7 @@
                 "min": 3,
                 "max": 8
               },
-              "add": false
+              "add": true
             }
           ]
         }
@@ -108,6 +176,10 @@
         {
           "type": "minecraft:loot_table",
           "name": "mire:item/map/end_city"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mire:chest/music_discs"
         },
         {
           "type": "minecraft:item",
