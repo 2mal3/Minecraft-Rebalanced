@@ -4,3 +4,4 @@
 # Datapack by 2mal3 (https://github.com/2mal3)
 
 execute if entity @s[type=minecraft:player] run function mire:entity/player/clock/tick
+execute if entity @s[type=minecraft:evoker] run function mire:entity/evoker/clock/tick

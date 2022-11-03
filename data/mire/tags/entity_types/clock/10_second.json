@@ -2,6 +2,7 @@
   "values": [
     "#mire:pet",
     "#mire:spider",
-    "#mire:zombie"
+    "#mire:zombie",
+    "minecraft:evoker"
   ]
 }
