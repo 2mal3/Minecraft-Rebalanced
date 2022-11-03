@@ -77,8 +77,8 @@
                   "attribute": "minecraft:generic.armor_toughness",
                   "name": "armorToughness",
                   "amount": {
-                    "min": 3,
-                    "max": 4
+                    "min": 2,
+                    "max": 3
                   },
                   "operation": "addition",
                   "slot": "offhand"
