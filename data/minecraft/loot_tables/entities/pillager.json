@@ -31,21 +31,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:map",
-          "functions": [
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "pillager_outpost",
-              "decoration": "banner_black",
-              "zoom": 2,
-              "skip_existing_chunks": false
-            },
-            {
-              "function": "set_name",
-              "name": "Super Secret Hideout"
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "mire:item/map/pillager_outpost"
         }
       ],
       "conditions": [
