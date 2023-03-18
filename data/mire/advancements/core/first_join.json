@@ -1,8 +1,0 @@
-{
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:tick"
-    }
-  },
-  "rewards": { "function": "mire:core/first_join" }
-}

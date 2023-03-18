@@ -1,8 +1,0 @@
-{
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "minecraft:villager",
-    "nbt": "{Xp:0,VillagerData:{level:1,profession:\"minecraft:fletcher\"},Offers:{Recipes:[{buy:{id:\"minecraft:stick\",Count:32b}}]}}"
-  }
-}
