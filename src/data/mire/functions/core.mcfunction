@@ -10,6 +10,7 @@ function ./load:
 function_tag minecraft:load:
     values:
         - "mire:core/load"
+        - "hifadhi:v1/load"
 
 
 ## Install
