@@ -19,6 +19,9 @@ function ./install:
 
     # Add scoreboards
     scoreboard objectives add mire.data dummy
+    # Data storage
+    #declare storage mire:data
+    data merge storage mire:data {root:{}}
     # Set the version in format: xx.xx.xx
     scoreboard players set $version mire.data ctx.meta.version
 
@@ -59,6 +62,7 @@ advancement ./first_join {
 ## Uninstall
 function ./uninstall:
     scoreboard objectives remove mire.data
+    data remove storage mire:data root
 
     tellraw @a:
         text: f"Uninstalled {ctx.project_name} {ctx.project_version} from {ctx.project_author}!"
