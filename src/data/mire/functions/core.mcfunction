@@ -1,10 +1,19 @@
 
+## Clocks
+function ./clock/second:
+    schedule function ./clock/second 1s replace
+
+    execute as @e[type=#./clock/second] at @s run function mire:entity/clock/second
+
+
 ## Load
 function ./load:
     scoreboard objectives add mire.data dummy
 
     execute unless score %installed mire.data matches 1 run function ./install
     execute if score %installed mire.data matches 1 unless score $version mire.data matches ctx.meta.version run function ./update
+
+    schedule function ./clock/second 1s replace
 
 
 function_tag minecraft:load:

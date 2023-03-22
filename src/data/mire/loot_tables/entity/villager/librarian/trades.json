@@ -1,0 +1,131 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:6,buy:{id:\"minecraft:emerald\",Count:16b},sell:{id:\"minecraft:experience_bottle\",Count:4b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:flower_banner_pattern",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:3,buy:{id:\"minecraft:emerald\",Count:8b},sell:{id:\"minecraft:flower_banner_patter\",Count:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:creeper_banner_pattern",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:3,buy:{id:\"minecraft:emerald\",Count:22b},sell:{id:\"minecraft:creeper_banner_patter\",Count:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:skull_banner_pattern",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.04f,rewardExp:5b,maxUses:3,buy:{id:\"minecraft:emerald\",Count:21b},sell:{id:\"minecraft:skull_banner_patter\",Count:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:12,buy:{id:\"minecraft:emerald\",Count:2b},sell:{id:\"minecraft:phantom_membrane\",Count:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:3,buy:{id:\"minecraft:emerald\",Count:12b},sell:{id:\"minecraft:golden_apple\",Count:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 11,
+          "name": "minecraft:red_candle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:12,buy:{id:\"minecraft:emerald\",Count:3b},sell:{id:\"minecraft:red_candle\",Count:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 11,
+          "name": "minecraft:black_candle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:12,buy:{id:\"minecraft:emerald\",Count:3b},sell:{id:\"minecraft:black_candle\",Count:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 11,
+          "name": "minecraft:white_candle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:12,buy:{id:\"minecraft:emerald\",Count:3b},sell:{id:\"minecraft:white_candle\",Count:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 11,
+          "name": "minecraft:candle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:12,buy:{id:\"minecraft:emerald\",Count:3b},sell:{id:\"minecraft:candle\",Count:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 11,
+          "name": "minecraft:light_gray_candle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{priceMultiplier:0.08f,rewardExp:5b,maxUses:12,buy:{id:\"minecraft:emerald\",Count:3b},sell:{id:\"minecraft:light_gray_candle\",Count:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
