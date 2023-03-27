@@ -1,5 +1,6 @@
 {
     "values": [
         "hifadhi:v1/load",
+        "#chunk_scan:load"
     ]
 }
