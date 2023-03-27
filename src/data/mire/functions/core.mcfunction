@@ -16,12 +16,6 @@ function ./load:
     schedule function ./clock/second 1s replace
 
 
-function_tag minecraft:load:
-    values:
-        - "mire:core/load"
-        - "hifadhi:v1/load"
-
-
 ## Install
 function ./install:
     scoreboard players set %installed mire.data 1
